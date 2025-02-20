@@ -324,20 +324,6 @@ const generateImage = async (prompt) => {
   }
 };
 
-// 📌 **API Endpoint - Instagram Post Oluşturma**
-app.post("/generate-instagram-post", async (req, res) => {
-  if (!generatedPost) {
-    return res
-      .status(500)
-      .json({ error: "Yapay zeka içeriği oluşturulamadı." });
-  }
-
-  res.json({
-    message: "Başarıyla işlendi ve Instagram'a gönderildi.",
-    generatedPost,
-  });
-});
-
 async function createAndShareInstagramPost() {
   try {
     const generatedPost = await generateInstagramPost();

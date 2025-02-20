@@ -11,6 +11,9 @@ Bu proje, yapay zeka destekli motivasyonel Instagram postları oluşturup payla�
 4. **Caption Ekleme**: Üretilen görsele motivasyon cümlesini ekler.
 5. **Instagram'da Paylaşma**: Görseli Instagram'a otomatik olarak yükler ve paylaşır.
 
+✅ **Örnek Paylaşımlarımızı Instagram'dan Takip Edin:**  
+📷 [@aimotivasyon4](https://www.instagram.com/aimotivasyon4)
+
 ---
 
 ## 📦 Kurulum
@@ -21,6 +24,10 @@ Bu proje, yapay zeka destekli motivasyonel Instagram postları oluşturup payla�
 
 ```sh
 git clone https://github.com/yunusmertofficial/instagram-ai-motivasyon-api.git
-cd projeAdi
+cd instagram-ai-motivasyon-api
 npm install
 ```
+
+## 📦 Projeyi Başlat
+
+node index.js
