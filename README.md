@@ -23,7 +23,7 @@ Bu proje, yapay zeka destekli motivasyonel Instagram postları oluşturup payla�
 Öncelikle, **Node.js** ve **npm** sisteminizde kurulu olmalıdır. Daha sonra, aşağıdaki komutları çalıştırarak bağımlılıkları yükleyin:
 
 ```sh
-git clone https://github.com/yunusmertofficial/instagram-ai-motivasyon-api.git
+git clone https://github.com/yunusmertofficial/instagram-ai-motivasyon.git
 cd instagram-ai-motivasyon-api
 npm install
 ```
